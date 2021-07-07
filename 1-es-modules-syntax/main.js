@@ -1,18 +1,4 @@
-function sum(a, b) {
-  return a + b;
-}
-
-function substract(a, b) {
-  return a - b;
-}
-
-function multiply(a, b) {
-  return a * b;
-}
-
-function divide(a, b) {
-  return a / b;
-}
+import { default as sum, substract, multiply, divide } from "./lib/math.js";
 
 console.log(sum(4, 5));
 console.log(substract(8, 4));
